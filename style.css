@@ -1,0 +1,314 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #5CAEA3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+
+}
+
+.container aside img {
+    border-radius: 32px;
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    padding: 0px; 
+}
+
+aside {
+    flex: 1;
+    background-color: #E7F0D7;
+    padding: 20px;
+    border-radius: 10px;
+    grid-column: 1;
+}
+
+aside h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero aside {
+    width: 50%;
+    float: left;
+}
+
+.hero aside img {
+    border-radius: 32px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.hero aside img {
+    width: 200px;
+}
+
+.hero main {
+    width: 50%;
+    float: right;
+}
+
+.hero main h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.hero main p {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    
+}
+
+.hero main h3 {
+    font-size: 2em;
+}
+
+.hero main p {
+    font-size: 1.2em; 
+    line-height: 1.4;
+    text-align: justify;
+    color: #333; 
+}
+
+
+
+main {
+    flex: 2;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    grid-column: 2;
+}
+
+main h2 {
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    background-color: #5CAEA3;
+    color: #fff;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Warna latar belakang untuk baris genap */
+tr.even {
+    background-color: #E7F0D7;
+}
+
+/* Warna latar belakang untuk baris ganjil */
+tr.odd {
+    background-color: #D3E9C2;
+}
+
+
+/* Desain Formulir */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("arrow.png") no-repeat;
+    background-position: 95% center;
+}
+
+button {
+    background-color: #5CAEA3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4A956E;
+}
+
+main p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.welcome-paragraph {
+    font-size: 1.2em; 
+    line-height: 1.4; 
+    text-align: justify; 
+    color: #333; 
+}
+
+ul li a {
+    color: #5CAEA3;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+ul li a {
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+ul li a:active {
+    background-color: #5CAEA3;
+    color: #fff;
+}
+
+
+ul li a:hover {
+    background-color: #4A956E;
+    color: #fff;
+}
+
+
+ul li a {
+    color: #5CAEA3;
+}
+
+
+ul li a:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+ul li a:before {
+    background-position: top;
+}
+
+
+ul li a:first-child:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a:before {
+    width: 15px;
+    height: 15px;
+}
+
+ul li a:first-child:before {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
